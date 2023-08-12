@@ -223,8 +223,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: #4d5ae5;
+  letter-spacing: 0.04em;  
   font-family: 'Roboto', sans-serif;
   font-family: inherit;
   border: none;
@@ -234,6 +233,7 @@ button {
   margin-left: auto;
   display: block;
   border-radius: 4px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .hero-list-btn:hover,
@@ -298,6 +298,9 @@ button {
   text-transform: capitalize;
   line-height: 1.11;
   margin-bottom: 72px;
+}
+.list-doing_do {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .doing-list-list {
   display: flex;
