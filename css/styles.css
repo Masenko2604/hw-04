@@ -236,7 +236,9 @@ button {
 
 .indicators-section-list {
   padding: 120px 0;
+  
 }
+
 .indicators-list {
   display: flex;
   gap: 24px;
@@ -249,12 +251,21 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.indicators-icons-list {
+.indicators-icon-list {
   width: calc((100% - 72px) / 4);
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  width: 264px; 
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;  
+}
   .indicators-list-icon {
     display: flex;
   }
-}
+
 .indicators-list-text {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -342,6 +353,10 @@ button {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: center;
+
+}
+.team-icon-card {
+  
 }
 /* Footer */
 .footer-finish {
