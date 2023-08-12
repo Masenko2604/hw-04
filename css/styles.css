@@ -120,10 +120,9 @@ button {
 }
 .pages-list-item {
   gap: 40px;
- 
 }
 
-.pages-list-link {  
+.pages-list-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -134,7 +133,7 @@ button {
   display: block;
   position: relative;
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pages-list-item:hover,
@@ -152,11 +151,10 @@ button {
   border-radius: 2px;
   flex-shrink: 0;
   bottom: -1px;
-  background-color: #404bbf; 
+  background-color: #404bbf;
 }
 .pages-list-link:current::after {
   background: var(--ocean, #404bbf);
- 
 }
 
 /* Header address */
@@ -190,16 +188,20 @@ button {
 }
 
 /* Hero */
-.hero {  
-  background-color: #2e2f42;  
+.hero {
+  background-color: #2e2f42;
   padding: 188px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-office.jpg);
   max-width: 1440px;
-  background-repeat: no-repeat; 
-  background-size: cover;  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -223,7 +225,7 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;  
+  letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
   font-family: inherit;
   border: none;
@@ -245,7 +247,6 @@ button {
 
 .indicators-section-list {
   padding: 120px 0;
-  
 }
 
 .indicators-list {
@@ -263,17 +264,17 @@ button {
 .indicators-icon-list {
   width: calc((100% - 72px) / 4);
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-  width: 264px; 
+  width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
-  margin-bottom: 8px;  
+  margin-bottom: 8px;
 }
-  .indicators-list-icon {
-    display: flex;
-  }
+.indicators-list-icon {
+  display: flex;
+}
 
 .indicators-list-text {
   color: var(--slate, #434455);
@@ -282,7 +283,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 
 /* We are doing */
 .doing {
@@ -300,7 +300,8 @@ button {
   margin-bottom: 72px;
 }
 .list-doing_do {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .doing-list-list {
   display: flex;
@@ -345,7 +346,8 @@ button {
   display: block;
   max-width: 100%;
   height: auto;
-  box-shadow зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-list-position {
   color: var(--navyblue, #2e2f42);
@@ -364,10 +366,8 @@ button {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: center;
-
 }
 .icon-team-icon {
-
 }
 
 /* Footer */
