@@ -249,8 +249,11 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.indicators-item {
+.indicators-icons-list {
   width: calc((100% - 72px) / 4);
+  .indicators-list-icon {
+    display: flex;
+  }
 }
 .indicators-list-text {
   color: var(--slate, #434455);
@@ -259,9 +262,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.indicators-list-icon {
-  display: flex;
-}
+
 
 /* We are doing */
 .doing {
