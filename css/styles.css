@@ -377,7 +377,21 @@ button {
   width: 40px;
   height: 40px;
 }
-
+/* Customers section */
+.customers-section-link {
+}
+.customers-section-container {
+}
+.customers-title {
+}
+.customers-link-icon {
+  display: flex;
+  gap: 24px;
+}
+.customers-social-icon {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
 /* Footer */
 .footer-finish {
   background-color: #2e2f42;
