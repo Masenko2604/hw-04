@@ -325,8 +325,11 @@ button {
 .team {
   padding: 120px 0;
   background: var(--cloud, #F4F4FD);
+  max-width: 1440px;
+  margin: auto;
 }
 .team-card-container {
+  
 }
 
 .team-title-list {
@@ -354,7 +357,7 @@ button {
 width: calc(100%-72px)/4;  
 } 
 .team-content-wrp {
-  padding: 24px 0;
+  padding: 32px 0 
 }
 
 .team-list-position {
@@ -375,6 +378,8 @@ width: calc(100%-72px)/4;
 .social-list {
   display: flex;  
   gap: 24px;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .social-item {
   width: 40px;
