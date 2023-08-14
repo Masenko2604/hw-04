@@ -341,7 +341,7 @@ button {
   background-color: #ffffff;
   margin-bottom: 72px;
 }
-.team-list-img {
+.team-list {
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
@@ -354,8 +354,10 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.team-card-item {
+.team-list-photo {
   padding: 32px 0;
+}
+.team-content-wrp {
 }
 
 .team-list-position {
@@ -394,7 +396,7 @@ button {
 .social-team-link:focus {
   background-color: #404bbf;
 }
-.social-team-img {
+.social-team-icon {
   fill: #f4f4fd;
 }
 
@@ -431,15 +433,16 @@ button {
   justify-content: center;
   color: #8e8f99;
 }
+.social-link:hover,
+.social-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
 .icon-customers-link {
   width: 100%;
   fill: currentColor;
 }
-.icon-customers-link:hover,
-.icon-customers-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
-}
+
 /* Footer */
 .footer-finish {
   background-color: #2e2f42;
