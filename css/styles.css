@@ -28,7 +28,7 @@
   --primavery-border-color: 1px solid #e7e9fc;
   --primavery-custtitle-color: #2e2f42;
   --primavery-cust-icon-color: #8e8f99;
-
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -84,6 +84,8 @@ button {
 }
 .header-start {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container-header {
   display: flex;
@@ -352,7 +354,6 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-card-item {
-
 }
 
 .team-list-position {
@@ -368,17 +369,12 @@ button {
   padding: 32px 0;
 }
 .team-list-text {
-  
-
 }
 .social-list {
-
 }
 .social-item {
-
 }
 .social-link {
-
 }
 
 /* Customers section */
@@ -392,18 +388,15 @@ button {
   font-size: 36px;
   line-height: 1.11;
   margin-bottom: 72px;
-  
 }
 .customers-link-icon {
   display: flex;
   gap: 24px;
-  
 }
 .customers-social-icon {
-  width: calc((100% - 120px) / 6); 
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
-
 
 .icon-customers-link {
   width: 100%;
@@ -417,8 +410,8 @@ button {
 }
 .icon-customers-link:hover,
 .icon-customers-link:focus {
-   border-color: #404bbf;
-   color: #404bbf;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 /* Footer */
 .footer-finish {
@@ -586,4 +579,4 @@ button {
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
-  }
+}
