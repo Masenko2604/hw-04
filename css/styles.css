@@ -207,6 +207,7 @@ button {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -416,9 +417,11 @@ button {
 .customers-social-icon {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-customers-link {
+.social-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -427,6 +430,10 @@ button {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+}
+.icon-customers-link {
+  width: 100%;
+  fill: currentColor;
 }
 .icon-customers-link:hover,
 .icon-customers-link:focus {
