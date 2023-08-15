@@ -457,13 +457,12 @@ button {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-container-footer {
+.footer-content {
   display: flex;
   align-items: baseline;
-}
-.footer-content {
   margin-right: 120px;
 }
+
 .footer-logo-link {
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
@@ -508,7 +507,7 @@ button {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.footer-list-social {
+.footer-list {
   display: flex;
   gap: 16px; 
 }
