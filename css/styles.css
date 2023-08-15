@@ -45,6 +45,11 @@ h3,
 p {
   margin: 0;
 }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 img {
   display: block;
 }
