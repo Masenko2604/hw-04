@@ -441,7 +441,7 @@ button {
   justify-content: center;
   color: #8e8f99;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -457,8 +457,7 @@ button {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-content {
-  display: flex;
+.footer-content {  
   align-items: baseline;
   margin-right: 120px;
 }
@@ -497,7 +496,11 @@ button {
 }
 .footer-social {
   display: flex;
-  gap: 24px;
+  gap: 24px;  
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 132px;
+  
 }
 .footer-social-text {
   font-weight: 500;
@@ -506,6 +509,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+ 
 }
 .footer-list {
   display: flex;
@@ -535,7 +539,7 @@ background-color: #31d0aa;
 }
 
 .social-icon-soc {
-
+ 
 }
  
 
