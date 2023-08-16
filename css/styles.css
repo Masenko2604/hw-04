@@ -350,6 +350,7 @@ button {
   margin-bottom: 72px;
 }
 .team-list {
+  letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
 }
