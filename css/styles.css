@@ -31,6 +31,7 @@
   --primavery-soc-link-team-background-color: #4d5ae5;
   --primavery-footer-social-text: color: #FFFFFF;
   --primavery-footicon-background-color: #4d5ae5;
+  --primavery-footer-icon-soc-fill: #f4f4fd;
 }
 
 body {
@@ -507,6 +508,7 @@ button {
   letter-spacing: 0.02em;
   border: none;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .footer-social {
   display: flex;
@@ -547,6 +549,8 @@ button {
   align-items: center;
   justify-content: center;
   fill: var(--iris, #4D5AE5);
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus {
@@ -554,11 +558,10 @@ background-color: #31d0aa;
 
 }
 
-.social-icon-soc {
+.footer-icon-soc {
  gap: 16px;
  color: rgba(244, 244, 253, 1);
-
- 
+ fill:  #f4f4fd; 
 }
  
 
