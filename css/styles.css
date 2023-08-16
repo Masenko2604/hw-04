@@ -329,8 +329,7 @@ button {
 /* Team card */
 
 .team {
-  padding: 120px 0;
-  background: var(--cloud, #f4f4fd);
+  padding: 120px 0;  
   max-width: 1440px;
   margin: auto;
 }
@@ -346,8 +345,7 @@ button {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  background-color: #ffffff;
+  text-transform: capitalize; 
   margin-bottom: 72px;
 }
 .team-list {
