@@ -334,7 +334,8 @@ button {
   max-width: 1440px;
   margin: auto;
 }
-.team-card-container {
+.team-card-position {
+  padding: 32px 0;;
 }
 
 .team-title-list {
@@ -354,15 +355,20 @@ button {
   display: flex;
   gap: 24px;
 }
-.team-list-photo {
+.team-list-img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc(100%-72px) / 4;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.team-content-wrp {
+.team-card-name {
   padding: 32px 0;
+  width: 232px;
+  height: 56px;
 }
 
 .team-list-position {
@@ -379,6 +385,9 @@ button {
 .team-list-text {
   margin-bottom: 8px;
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
 .social-list {
   display: flex;
