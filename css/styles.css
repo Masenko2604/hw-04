@@ -394,7 +394,9 @@ button {
   width: 40px;
 }
 .social-card-item {
-  
+ width: 40px; 
+ height: 40px;
+ 
 }
 .social-team-link {
   border-radius: 50%;
