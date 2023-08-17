@@ -731,7 +731,7 @@ display: block;
   width: 360px;
   height: 300px;                
   padding: 40px;
-  transform: translateY(100%);
+  transform: translateX(-100%);
   transition-property: transform;
   transition-duration: 400ms;
   transition-timing-function: ease;    
