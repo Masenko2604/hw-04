@@ -724,7 +724,7 @@ background-color: #31d0aa;
   overflow: hidden; 
 }
 .projects-list-img {
-display: block;
+  display: block;
 }
 .overlay-text {
   position: absolute;
@@ -733,8 +733,8 @@ display: block;
   justify-content: center;
   top: 0;
   left: 0; 
-  width: 360px;
-  height: 300px;                
+  width: 100%;
+  height: 3100%;                
   padding: 40px;
   transform: translateX(-100%);   
   background: var(--iris, #4D5AE5);
