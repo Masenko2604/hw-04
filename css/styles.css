@@ -689,10 +689,7 @@ background-color: #31d0aa;
 }
 
 /* Projects */
-.projects-content {
-  position: relative;
-  overflow: hidden;
-}
+
 .projects-card-worker {
   text-decoration: none;
   display: flex;
