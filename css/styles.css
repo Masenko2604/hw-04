@@ -710,8 +710,7 @@ background-color: #31d0aa;
 }
 
 .projects-card-link {
-  display: block;
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;  
   transform: translateY(0%); 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
@@ -744,8 +743,7 @@ background-color: #31d0aa;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;  
-  transition: box-shadow 250ms linear; 
+  line-height: 1.5;    
   letter-spacing: 0.02em; 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
